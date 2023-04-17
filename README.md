@@ -2,7 +2,7 @@
 For a given organization name/pattern, get all unique domain names from crt.sh and then check if those are managed domains on Azure and GCP.
 
 ## Download
-Download the file over here - [cloud_account_report](https://raw.githubusercontent.com/praprama/cloud_account_report/master/bin/cloud_account_report)
+Download the file over here - [cloud_account_report]https://github.com/praprama/cloud_account_report/raw/main/bin/cloud_account_report)
 
 ## Usage
 Run the binary downloaded with the options below. `-domain` is the only mandatory parameter.
