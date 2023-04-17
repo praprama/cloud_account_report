@@ -2,7 +2,7 @@
 For a given organization name/pattern, get all unique domain names from crt.sh and then check if those are managed domains on Azure and GCP.
 
 ## Download
-Download the file over here - [cloud_account_report]https://github.com/praprama/cloud_account_report/raw/main/bin/cloud_account_report)
+Download the file over here - [cloud_account_report](https://github.com/praprama/cloud_account_report/raw/main/bin/cloud_account_report)
 
 ## Usage
 Run the binary downloaded with the options below. `-domain` is the only mandatory parameter.
@@ -43,3 +43,6 @@ The arrays `available` and `unavailable` will contain `null` if no domains are f
 
 ## Limitations
 For GCP, the utility only checks if the domain is a federated one or not. If it is a locally managed domain that is not federated on GCP, that is not checked today.
+
+## Authors
+[Prapanch Ramamoorthy](https://github.com/praprama), [Manoj Papisetty](https://github.com/manojpapisetty) and [Akshay Dubey](https://github.com/aksdubeypub)
